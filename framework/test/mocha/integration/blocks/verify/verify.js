@@ -21,6 +21,7 @@ const { transfer } = require('@liskhq/lisk-transactions');
 const _ = require('lodash');
 const async = require('async');
 const BigNum = require('@liskhq/bignum');
+const { Slots } = require('@liskhq/lisk-dpos');
 const application = require('../../../common/application');
 const { clearDatabaseTable } = require('../../../common/storage_sandbox');
 const modulesLoader = require('../../../common/modules_loader');
@@ -28,7 +29,6 @@ const random = require('../../../common/utils/random');
 const accountFixtures = require('../../../fixtures/accounts');
 const genesisDelegates = require('../../../data/genesis_delegates.json')
 	.delegates;
-const { Slots } = require('../../../../../src/modules/chain/dpos');
 const { getNetworkIdentifier } = require('../../../common/network_identifier');
 
 const networkIdentifier = getNetworkIdentifier(
@@ -428,9 +428,7 @@ describe('blocks/verify', () => {
 					await library.modules.processor.process(block2);
 				} catch (err) {
 					expect(err.message).equal(
-						`Failed to verify slot: 3377288. Block ID: ${
-							block2.id
-						}. Block Height: ${block2.height}`,
+						`Failed to verify slot: 3377288. Block ID: ${block2.id}. Block Height: ${block2.height}`,
 					);
 				}
 			});
@@ -515,9 +513,7 @@ describe('blocks/verify', () => {
 						await library.modules.processor.process(firstBlock);
 					} catch (err) {
 						expect(err[0].message).to.equal(
-							`Account does not have enough LSK: ${
-								account.address
-							}, balance: 0`,
+							`Account does not have enough LSK: ${account.address}, balance: 0`,
 						);
 					}
 				});

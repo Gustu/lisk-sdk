@@ -22,8 +22,8 @@ const PQ = require('pg-promise').ParameterizedQuery;
 const {
 	getPrivateAndPublicKeyBytesFromPassphrase,
 } = require('@liskhq/lisk-cryptography');
+const { Slots } = require('@liskhq/lisk-dpos');
 const accountFixtures = require('../../../fixtures/accounts');
-const { Slots } = require('../../../../../src/modules/chain/dpos');
 const genesisDelegates = require('../../../data/genesis_delegates.json')
 	.delegates;
 const application = require('../../../common/application');
@@ -168,9 +168,7 @@ describe('integration test (blocks) - process receiveBlockFromNetwork()', () => 
 						.then(() => {
 							last_block = library.modules.blocks.lastBlock;
 							__testContext.debug(
-								`New last block height: ${
-									last_block.height
-								} New last block ID: ${last_block.id}`,
+								`New last block height: ${last_block.height} New last block ID: ${last_block.id}`,
 							);
 							return waterFallCb();
 						})

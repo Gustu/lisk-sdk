@@ -22,13 +22,13 @@ const {
 	registerDelegate,
 } = require('@liskhq/lisk-transactions');
 const BigNum = require('@liskhq/bignum');
+const { Slots } = require('@liskhq/lisk-dpos');
 const genesisDelegates = require('../../../data/genesis_delegates.json');
 const accountFixtures = require('../../../fixtures/accounts');
 const randomUtil = require('../../../common/utils/random');
 const waitFor = require('../../../common/utils/wait_for');
 const SwaggerEndpoint = require('../../../common/swagger_spec');
 const apiHelpers = require('../../../common/helpers/api');
-const { Slots } = require('../../../../../src/modules/chain/dpos');
 const { getNetworkIdentifier } = require('../../../common/network_identifier');
 
 const networkIdentifier = getNetworkIdentifier(

@@ -21,13 +21,13 @@ const {
 	registerSecondPassphrase,
 	castVotes,
 } = require('@liskhq/lisk-transactions');
+const { Slots } = require('@liskhq/lisk-dpos');
 const { getAddressFromPublicKey } = require('@liskhq/lisk-cryptography');
 const accountFixtures = require('../../../fixtures/accounts');
 const randomUtil = require('../../../common/utils/random');
 const waitFor = require('../../../common/utils/wait_for');
 const apiHelpers = require('../../../common/helpers/api');
 const SwaggerEndpoint = require('../../../common/swagger_spec');
-const { Slots } = require('../../../../../src/modules/chain/dpos');
 const Scenarios = require('../../../common/scenarios');
 const { getNetworkIdentifier } = require('../../../common/network_identifier');
 
@@ -226,9 +226,7 @@ describe('GET /api/transactions', () => {
 							blockId: '1',
 							senderId: `${accountFixtures.genesis.address},${account.address}`,
 							senderPublicKey: accountFixtures.genesis.publicKey,
-							recipientPublicKey: `${accountFixtures.genesis.publicKey},${
-								account.publicKey
-							}`,
+							recipientPublicKey: `${accountFixtures.genesis.publicKey},${account.publicKey}`,
 							sort: 'amount:asc',
 						},
 						400,

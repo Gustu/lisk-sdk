@@ -26,7 +26,7 @@ const BigNum = require('@liskhq/bignum');
 const { getAddressFromPublicKey } = require('@liskhq/lisk-cryptography');
 const Promise = require('bluebird');
 const { hexToBuffer } = require('@liskhq/lisk-cryptography');
-const { Slots } = require('../../../src/modules/chain/dpos');
+const { Slots } = require('@liskhq/lisk-dpos');
 const accountsFixtures = require('../fixtures/accounts');
 const randomUtil = require('../common/utils/random');
 const QueriesHelper = require('../common/integration/sql/queries_helper');
@@ -549,9 +549,7 @@ describe('rounds', () => {
 					}
 
 					__testContext.debug(
-						`	Processing block ${blocksProcessed} of ${blocksToForge} with ${
-							transactions.length
-						} transactions`,
+						`	Processing block ${blocksProcessed} of ${blocksToForge} with ${transactions.length} transactions`,
 					);
 					tickAndValidate(transactions);
 					untilCb();
@@ -1037,9 +1035,7 @@ describe('rounds', () => {
 						}
 
 						__testContext.debug(
-							`	Processing block ${blocksProcessed} of ${blocksToForge} with ${
-								transactions.length
-							} transactions`,
+							`	Processing block ${blocksProcessed} of ${blocksToForge} with ${transactions.length} transactions`,
 						);
 						tickAndValidate(transactions);
 						untilCb();
@@ -1093,9 +1089,7 @@ describe('rounds', () => {
 						}
 
 						__testContext.debug(
-							`	Processing block ${blocksProcessed} of ${blocksToForge} with ${
-								transactions.length
-							} transactions`,
+							`	Processing block ${blocksProcessed} of ${blocksToForge} with ${transactions.length} transactions`,
 						);
 						tickAndValidate(transactions);
 

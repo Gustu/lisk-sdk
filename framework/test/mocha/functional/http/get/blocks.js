@@ -15,12 +15,12 @@
 'use strict';
 
 require('../../functional');
+const { Slots } = require('@liskhq/lisk-dpos');
 
 const accountFixtures = require('../../../fixtures/accounts');
 const waitFor = require('../../../common/utils/wait_for');
 const SwaggerEndpoint = require('../../../common/swagger_spec');
 const apiHelpers = require('../../../common/helpers/api');
-const { Slots } = require('../../../../../src/modules/chain/dpos');
 
 const expectSwaggerParamError = apiHelpers.expectSwaggerParamError;
 
