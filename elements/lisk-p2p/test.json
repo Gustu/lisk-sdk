@@ -1,0 +1,1602 @@
+[
+	{
+		"peerId": "12.111.112.113:5012",
+		"ipAddress": "12.111.112.113",
+		"wsPort": 5012,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 1935476513,
+			"latency": 0,
+			"connectTime": 1575477545132,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "outbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "6.111.112.113:5006",
+		"ipAddress": "6.111.112.113",
+		"wsPort": 5006,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 2537943973,
+			"latency": 0,
+			"connectTime": 1575477545132,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "11.111.112.113:5011",
+		"ipAddress": "11.111.112.113",
+		"wsPort": 5011,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 1481853120,
+			"latency": 0,
+			"connectTime": 1575477545132,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "10.111.112.113:5010",
+		"ipAddress": "10.111.112.113",
+		"wsPort": 5010,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 3254055097,
+			"latency": 0,
+			"connectTime": 1575477545132,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "21.111.112.113:5021",
+		"ipAddress": "21.111.112.113",
+		"wsPort": 5021,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 1519221096,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "20.111.112.113:5020",
+		"ipAddress": "20.111.112.113",
+		"wsPort": 5020,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 2805507838,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "outbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "58.111.112.114:5058",
+		"ipAddress": "58.111.112.114",
+		"wsPort": 5058,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 4077759452,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "14.111.112.113:5014",
+		"ipAddress": "14.111.112.113",
+		"wsPort": 5014,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 3040393223,
+			"latency": 0,
+			"connectTime": 1575477545132,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "9.111.112.113:5009",
+		"ipAddress": "9.111.112.113",
+		"wsPort": 5009,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 3836888562,
+			"latency": 0,
+			"connectTime": 1575477545132,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "56.111.112.114:5056",
+		"ipAddress": "56.111.112.114",
+		"wsPort": 5056,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 981948082,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "outbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "69.111.112.114:5069",
+		"ipAddress": "69.111.112.114",
+		"wsPort": 5069,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 3685823,
+			"latency": 0,
+			"connectTime": 1575477545134,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "22.111.112.113:5022",
+		"ipAddress": "22.111.112.113",
+		"wsPort": 5022,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 2019305622,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "18.111.112.113:5018",
+		"ipAddress": "18.111.112.113",
+		"wsPort": 5018,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 1586388876,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "24.111.112.114:5024",
+		"ipAddress": "24.111.112.114",
+		"wsPort": 5024,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 1862293072,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "outbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "54.111.112.114:5054",
+		"ipAddress": "54.111.112.114",
+		"wsPort": 5054,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 4282378012,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "0.111.112.113:5000",
+		"ipAddress": "0.111.112.113",
+		"wsPort": 5000,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 2006910055,
+			"latency": 0,
+			"connectTime": 1575477545132,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "outbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "38.111.112.114:5038",
+		"ipAddress": "38.111.112.114",
+		"wsPort": 5038,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 3576704440,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "36.111.112.114:5036",
+		"ipAddress": "36.111.112.114",
+		"wsPort": 5036,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 3731313208,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "outbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "44.111.112.114:5044",
+		"ipAddress": "44.111.112.114",
+		"wsPort": 5044,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 2775015727,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "outbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "13.111.112.113:5013",
+		"ipAddress": "13.111.112.113",
+		"wsPort": 5013,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 593711473,
+			"latency": 0,
+			"connectTime": 1575477545132,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "31.111.112.114:5031",
+		"ipAddress": "31.111.112.114",
+		"wsPort": 5031,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 1498039847,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "4.111.112.113:5004",
+		"ipAddress": "4.111.112.113",
+		"wsPort": 5004,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 4293670347,
+			"latency": 0,
+			"connectTime": 1575477545132,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "outbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "16.111.112.113:5016",
+		"ipAddress": "16.111.112.113",
+		"wsPort": 5016,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 1023095792,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "outbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "32.111.112.114:5032",
+		"ipAddress": "32.111.112.114",
+		"wsPort": 5032,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 2059422829,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "outbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "24.111.112.113:5024",
+		"ipAddress": "24.111.112.113",
+		"wsPort": 5024,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 1862293072,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "outbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "15.111.112.114:5015",
+		"ipAddress": "15.111.112.114",
+		"wsPort": 5015,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 3625314019,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "35.111.112.114:5035",
+		"ipAddress": "35.111.112.114",
+		"wsPort": 5035,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 2219142540,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "65.111.112.114:5065",
+		"ipAddress": "65.111.112.114",
+		"wsPort": 5065,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 2976682293,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "55.111.112.114:5055",
+		"ipAddress": "55.111.112.114",
+		"wsPort": 5055,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 139437977,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "10.111.112.114:5010",
+		"ipAddress": "10.111.112.114",
+		"wsPort": 5010,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 3254055097,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "67.111.112.114:5067",
+		"ipAddress": "67.111.112.114",
+		"wsPort": 5067,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 4192265977,
+			"latency": 0,
+			"connectTime": 1575477545134,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "4.111.112.114:5004",
+		"ipAddress": "4.111.112.114",
+		"wsPort": 5004,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 4293670347,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "outbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "28.111.112.114:5028",
+		"ipAddress": "28.111.112.114",
+		"wsPort": 5028,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 355361467,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "outbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "60.111.112.114:5060",
+		"ipAddress": "60.111.112.114",
+		"wsPort": 5060,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 2451322892,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "outbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "17.111.112.113:5017",
+		"ipAddress": "17.111.112.113",
+		"wsPort": 5017,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 2483817551,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "70.111.112.114:5070",
+		"ipAddress": "70.111.112.114",
+		"wsPort": 5070,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 1318382803,
+			"latency": 0,
+			"connectTime": 1575477545134,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "2.111.112.113:5002",
+		"ipAddress": "2.111.112.113",
+		"wsPort": 5002,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 359066775,
+			"latency": 0,
+			"connectTime": 1575477545132,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "7.111.112.113:5007",
+		"ipAddress": "7.111.112.113",
+		"wsPort": 5007,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 412781336,
+			"latency": 0,
+			"connectTime": 1575477545132,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "1.111.112.113:5001",
+		"ipAddress": "1.111.112.113",
+		"wsPort": 5001,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 1033332910,
+			"latency": 0,
+			"connectTime": 1575477545132,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "8.111.112.113:5008",
+		"ipAddress": "8.111.112.113",
+		"wsPort": 5008,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 898748124,
+			"latency": 0,
+			"connectTime": 1575477545132,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "outbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "5.111.112.113:5005",
+		"ipAddress": "5.111.112.113",
+		"wsPort": 5005,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 3289843353,
+			"latency": 0,
+			"connectTime": 1575477545132,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "19.111.112.114:5019",
+		"ipAddress": "19.111.112.114",
+		"wsPort": 5019,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 3176072265,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "15.111.112.113:5015",
+		"ipAddress": "15.111.112.113",
+		"wsPort": 5015,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 3625314019,
+			"latency": 0,
+			"connectTime": 1575477545132,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "23.111.112.113:5023",
+		"ipAddress": "23.111.112.113",
+		"wsPort": 5023,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 1578669280,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "12.111.112.114:5012",
+		"ipAddress": "12.111.112.114",
+		"wsPort": 5012,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 1935476513,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "outbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "74.111.112.114:5074",
+		"ipAddress": "74.111.112.114",
+		"wsPort": 5074,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 1603287291,
+			"latency": 0,
+			"connectTime": 1575477545134,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "19.111.112.113:5019",
+		"ipAddress": "19.111.112.113",
+		"wsPort": 5019,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 3176072265,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "3.111.112.113:5003",
+		"ipAddress": "3.111.112.113",
+		"wsPort": 5003,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 587572038,
+			"latency": 0,
+			"connectTime": 1575477545132,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "20.111.112.114:5020",
+		"ipAddress": "20.111.112.114",
+		"wsPort": 5020,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 2805507838,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "outbound",
+			"peerKind": "NONE"
+		}
+	},
+	{
+		"peerId": "63.111.112.114:5063",
+		"ipAddress": "63.111.112.114",
+		"wsPort": 5063,
+		"sharedState": {
+			"height": 645980,
+			"isDiscoveredPeer": false,
+			"version": "1.1.1",
+			"protocolVersion": "1.1"
+		},
+		"internalState": {
+			"reputation": 100,
+			"netgroup": 2420876516,
+			"latency": 0,
+			"connectTime": 1575477545133,
+			"rpcCounter": {},
+			"rpcRates": {},
+			"messageCounter": {},
+			"messageRates": {},
+			"wsMessageCount": 0,
+			"wsMessageRate": 0,
+			"productivity": {
+				"requestCounter": 0,
+				"responseCounter": 0,
+				"responseRate": 0,
+				"lastResponded": 0
+			},
+			"advertiseAddress": true,
+			"connectionKind": "inbound",
+			"peerKind": "NONE"
+		}
+	}
+]

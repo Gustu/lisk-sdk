@@ -369,6 +369,13 @@ describe('peer selector', () => {
 
 				let triedCount = 0;
 				let newCount = 0;
+
+				require('fs').writeFileSync(
+					'test.json',
+					JSON.stringify(selectedPeers),
+					'utf-8',
+				);
+
 				for (const peer of selectedPeers) {
 					if (triedPeers.find(triedPeer => peer.peerId === triedPeer.peerId)) {
 						triedCount++;

@@ -56,14 +56,14 @@ describe('Outbound IP limit', () => {
 		Network setup:
 		IP  , Port , ConnectedPeers
 		127.0.0.1 5000 8 <-- Only Seed Peer for every Node
-		127.0.0.2 5001 5 
-		127.0.0.2 5002 5 
-		127.0.0.3 5003 5 
-		127.0.0.3 5004 5 
-		127.0.0.4 5005 5 
-		127.0.0.4 5006 5 
-		127.0.0.5 5007 5 
-		127.0.0.5 5008 5 
+		127.0.0.2 5001 5
+		127.0.0.2 5002 5
+		127.0.0.3 5003 5
+		127.0.0.3 5004 5
+		127.0.0.4 5005 5
+		127.0.0.4 5006 5
+		127.0.0.5 5007 5
+		127.0.0.5 5008 5
 		*/
 
 		p2pNodeList = await createNetwork({ networkSize: 9, customConfig });
@@ -75,14 +75,9 @@ describe('Outbound IP limit', () => {
 
 	it('should not have multiple Outbound connection for same IP addresses', async () => {
 		for (let p2p of p2pNodeList) {
-			let uniqIpAddresses: Array<string> = [];
-			p2p['_peerPool']
-				.getPeers(OutboundPeer)
-				.map(peer => uniqIpAddresses.push(peer.ipAddress));
+			const peers = p2p['_peerPool'].getPeers(OutboundPeer);
 
-			expect([...new Set(uniqIpAddresses)].length).to.equal(
-				p2p['_peerPool'].getPeers(OutboundPeer).length,
-			);
+			expect([...new Set(peers)].length).to.equal(peers.length);
 		}
 	});
 
