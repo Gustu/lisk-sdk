@@ -15,14 +15,16 @@
 'use strict';
 
 require('../../../functional');
-const SwaggerEndpoint = require('../../../../common/swagger_spec');
-const apiHelpers = require('../../../../common/helpers/api');
+const SwaggerEndpoint = require('../../../../../utils/http/swagger_spec');
+const apiHelpers = require('../../../../../utils/http/api');
 
 const expectSwaggerParamError = apiHelpers.expectSwaggerParamError;
 
 describe('GET /node', () => {
 	describe('/constants', () => {
 		const endPoint = new SwaggerEndpoint('GET /node/constants 200');
+		const devnetNetworkId =
+			'11a254dc30db5eb1ce4001acde35fd5a14d62584f886d30df161e4e883220eb7';
 
 		let constantsResponse;
 
@@ -32,10 +34,8 @@ describe('GET /node', () => {
 			});
 		});
 
-		it('should return a result containing nethash = "198f2b61a8eb95fbeed58b8216780b68f697f26b849acf00c8c93bb9b24f783d"', async () => {
-			return expect(constantsResponse.nethash).to.be.equal(
-				'198f2b61a8eb95fbeed58b8216780b68f697f26b849acf00c8c93bb9b24f783d',
-			);
+		it('should return a result containing networkId = "11a254dc30db5eb1ce4001acde35fd5a14d62584f886d30df161e4e883220eb7"', async () => {
+			return expect(constantsResponse.networkId).to.be.equal(devnetNetworkId);
 		});
 
 		it('should return a result containing milestone that is a number <= 500000000', async () => {
@@ -110,10 +110,10 @@ describe('GET /node', () => {
 	});
 
 	describe('/status', () => {
-		const ndoeStatusEndpoint = new SwaggerEndpoint('GET /node/status 200');
+		const nodeStatusEndpoint = new SwaggerEndpoint('GET /node/status 200');
 		// eslint-disable-next-line
 		it('should return node status', async () => {
-			return ndoeStatusEndpoint.makeRequest();
+			return nodeStatusEndpoint.makeRequest();
 		});
 
 		describe('GET /forging', () => {
@@ -165,6 +165,23 @@ describe('GET /node', () => {
 				return forgingEndpoint.makeRequest({ publicKey }, 200).then(res => {
 					expect(res.body.data[0].publicKey).to.be.eql(publicKey);
 					expect(res.body.data[0].forging).to.be.true;
+				});
+			});
+
+			it('using invalid forging value should fail', async () => {
+				return forgingEndpoint.makeRequest({ forging: null }, 400).then(res => {
+					expectSwaggerParamError(res, 'forging');
+				});
+			});
+
+			it('should return only forging delegates', async () => {
+				return forgingEndpoint.makeRequest({ forging: true }, 200).then(res => {
+					expect(res.body.data.length).to.be.eql(
+						__testContext.config.modules.chain.forging.delegates.length,
+					);
+					expect(
+						res.body.data.filter(d => d.forging === false).length,
+					).to.be.eql(0);
 				});
 			});
 		});

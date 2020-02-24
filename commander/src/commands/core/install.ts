@@ -17,6 +17,7 @@ import { flags as flagParser } from '@oclif/command';
 import * as fsExtra from 'fs-extra';
 import Listr from 'listr';
 import * as os from 'os';
+
 import BaseCommand from '../../base';
 import { NETWORK, RELEASE_URL, SNAPSHOT_URL } from '../../utils/constants';
 import {
@@ -41,10 +42,15 @@ import {
 	startDatabase,
 	stopDatabase,
 } from '../../utils/core/database';
-import { describeApplication, registerApplication } from '../../utils/core/pm2';
+import {
+	describeApplication,
+	registerApplication,
+	unRegisterApplication,
+} from '../../utils/core/pm2';
 import { getReleaseInfo } from '../../utils/core/release';
 import { download, downloadAndValidate, extract } from '../../utils/download';
 import { flags as commonFlags } from '../../utils/flags';
+
 import StartCommand from './start';
 
 interface Flags {
@@ -316,12 +322,13 @@ export default class InstallCommand extends BaseCommand {
 				return;
 			}
 		} catch (error) {
-			this.error(JSON.stringify(error));
+			await unRegisterApplication(name);
 			const { installDir }: Options = error.context.options;
 			const dirPath = installDir.substr(0, installDir.length - 1);
 
 			fsExtra.emptyDirSync(installDir);
 			fsExtra.rmdirSync(dirPath);
+			this.error(JSON.stringify(error));
 		}
 	}
 }

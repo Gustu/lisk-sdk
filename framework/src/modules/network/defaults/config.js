@@ -24,7 +24,7 @@ const defaultConfig = {
 			env: 'LISK_WS_PORT',
 			arg: '--port,-p',
 		},
-		address: {
+		hostIp: {
 			type: 'string',
 			format: 'ip',
 			env: 'LISK_ADDRESS',
@@ -49,7 +49,7 @@ const defaultConfig = {
 			env: { variable: 'LISK_PEERS', formatter: 'stringToIpPortSet' },
 			arg: { name: '--peers,-x', formatter: 'stringToIpPortSet' }, // TODO: Need to confirm parsing logic, old logic was using network WSPort to be default port for peers, we don't have it at the time of compilation
 		},
-		blacklistedPeers: {
+		blacklistedIPs: {
 			type: 'array',
 			items: {
 				type: 'string',
@@ -74,8 +74,6 @@ const defaultConfig = {
 				},
 			},
 			maximum: 4,
-			env: { variable: 'LISK_PEERS', formatter: 'stringToIpPortSet' },
-			arg: { name: '--peers,-x', formatter: 'stringToIpPortSet' },
 		},
 		// Warning! Beware of declaring only trustworthy peers in this array as these could attack a
 		// node with a denial-of-service attack because the banning mechanism is deactivated.
@@ -95,20 +93,12 @@ const defaultConfig = {
 					},
 				},
 			},
-			env: { variable: 'LISK_PEERS', formatter: 'stringToIpPortSet' },
-			arg: { name: '--peers,-x', formatter: 'stringToIpPortSet' },
-		},
-		discoveryInterval: {
-			type: 'integer',
 		},
 		peerBanTime: {
 			type: 'integer',
 		},
 		populatorInterval: {
 			type: 'integer',
-		},
-		wsEngine: {
-			type: 'string',
 		},
 		connectTimeout: {
 			type: 'integer',
@@ -122,49 +112,34 @@ const defaultConfig = {
 		maxInboundConnections: {
 			type: 'integer',
 		},
-		emitPeerLimit: {
+		sendPeerLimit: {
 			type: 'integer',
 			minimum: 1,
 			maximum: 100,
 		},
-		peerDiscoveryResponseLength: {
-			type: 'integer',
-		},
 		maxPeerDiscoveryResponseLength: {
 			type: 'integer',
+			maximum: 1000,
 		},
 		maxPeerInfoSize: {
 			type: 'integer',
+			maximum: 20480,
 		},
 		wsMaxPayload: {
 			type: 'integer',
+			maximum: 3048576,
 		},
 		outboundShuffleInterval: {
 			type: 'integer',
+		},
+		advertiseAddress: {
+			type: 'boolean',
 		},
 	},
 	required: ['wsPort', 'seedPeers'],
 	default: {
 		wsPort: 5000,
-		address: '0.0.0.0',
-		discoveryInterval: 30000,
-		peerBanTime: 86400,
-		populatorInterval: 10000,
 		seedPeers: [],
-		blacklistedPeers: [],
-		fixedPeers: [],
-		whitelistedPeers: [],
-		ackTimeout: 20000,
-		connectTimeout: 5000,
-		wsEngine: 'ws',
-		maxOutboundConnections: 20,
-		maxInboundConnections: 100,
-		emitPeerLimit: 25,
-		peerDiscoveryResponseLength: 1000,
-		maxPeerDiscoveryResponseLength: 1000,
-		maxPeerInfoSize: 20480,
-		wsMaxPayload: 3048576,
-		outboundShuffleInterval: 300000,
 	},
 };
 
